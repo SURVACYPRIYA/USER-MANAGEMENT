@@ -14,7 +14,8 @@ app.use(cors({
   origin: [
     "http://localhost:5173",
     "https://user-management-app-nu-vert.vercel.app",
-    "https://user-management-7pf6cwz4b-23eg105n55-7427s-projects.vercel.app"
+    "https://user-management-7pf6cwz4b-23eg105n55-7427s-projects.vercel.app",
+    "https://user-management-app-git-main-23eg105n55-7427s-projects.vercel.app"
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   credentials: true
