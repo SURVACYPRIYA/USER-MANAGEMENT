@@ -11,7 +11,10 @@ const app = exp();
 
 // ✅ CORS (secure - allow only frontend)
 app.use(cors({
-  origin: true,
+  origin: [
+    "http://localhost:5173",              
+    "https://user-management-app-nu-vert.vercel.app"    
+  ],
   credentials: true
 }));
 
